@@ -7,7 +7,7 @@ Feature: Como potencial usuario quiero ingresar a gmail y colocar mi correo
     Then Como usuario ingreso a la pagina de gmail
 
   @Smoke
-  Scenario Outline: El usuario quiere ingresar a su cuenta de gmail
+  Scenario Outline: El usuario quiere ingresar su email
     Given Como usuario ingrese a gmail atreves del buscador
     When Como usuario ingreso para logearme
     And Como usuario ingreso mi <correo>
